@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+    background-image:url(/Images/exam.jpg) ;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;      
+
+}
+h1 {
+    font-size: 3rem;
+    text-shadow: 2px 4px #CAB695;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    
+}
+.countdown__container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: -5rem 10rem;
+}
+.big-text {
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+
+}
+.countdown__time {
+    text-align: center;
+}
+.countdown__time span {
+    font-size: 2rem;
+}
